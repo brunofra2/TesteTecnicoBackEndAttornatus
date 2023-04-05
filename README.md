@@ -3,17 +3,17 @@ Este projeto foi realizado para participação do processo seletivo da Attornatu
 Respeitando os seguintes requisitos:
 Usando Spring boot, crie uma API simples para gerenciar Pessoas. Esta API deve permitir: 
 
-- Criar uma pessoa ok
+- Criar uma pessoa 
 
-- Editar uma pessoa ok
+- Editar uma pessoa 
 
-- Consultar uma pessoa ok
+- Consultar uma pessoa 
 
-- Listar pessoas ok
+- Listar pessoas 
 
-- Criar endereço para pessoa ok
+- Criar endereço para pessoa 
 
-- Listar endereços da pessoa ok
+- Listar endereços da pessoa 
 
 - Poder informar qual endereço é o principal da pessoa
 
@@ -70,3 +70,5 @@ Será levado em avaliação
 - Opcionalmente, caso você consiga fazer o build da aplicação, poderá também informar o link de acesso
 
 o arquivo TesteTecnicoBackEndAttornatus.postman.json é a collection do postman para teste do projeto;
+
+link do swagger do projeto: http://localhost:8080/swagger-ui/index.html
