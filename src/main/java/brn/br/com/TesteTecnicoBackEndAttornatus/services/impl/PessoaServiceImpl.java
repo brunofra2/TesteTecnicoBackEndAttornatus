@@ -33,7 +33,6 @@ public class PessoaServiceImpl implements PessoaService {
     public PessoaDto create(PessoaDto pes) {
 
         if (pes == null) throw new RequiredObjectIsNullException();
-        logger.info("teste"+pes);
 
         var entity = PessoaMapper.convertDtoToModel(pes);
         var vo =  PessoaMapper.convertModelToDto(pessoaRepository.save(entity));
