@@ -2,7 +2,6 @@ package brn.br.com.TesteTecnicoBackEndAttornatus.facade.impl;
 
 import brn.br.com.TesteTecnicoBackEndAttornatus.Data.vo.PessoaDto;
 import brn.br.com.TesteTecnicoBackEndAttornatus.facade.PessoaFacade;
-import brn.br.com.TesteTecnicoBackEndAttornatus.mapper.DozerMapper;
 import brn.br.com.TesteTecnicoBackEndAttornatus.mapper.PessoaMapper;
 import brn.br.com.TesteTecnicoBackEndAttornatus.services.PessoaService;
 import org.springframework.beans.factory.annotation.Autowired;

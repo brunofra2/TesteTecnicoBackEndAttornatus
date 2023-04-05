@@ -15,7 +15,7 @@ public class PessoaResource {
     private PessoaFacade pessoaFacade;
 
     @GetMapping("/all")
-    public List<PessoaDto> getLista(){
+    public List<PessoaDto> findAll(){
         return pessoaFacade.findAll();
     }
 

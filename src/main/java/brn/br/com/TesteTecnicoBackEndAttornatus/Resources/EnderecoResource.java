@@ -17,7 +17,7 @@ public class EnderecoResource {
     private EnderecoFacade enderecoFacade;
 
     @GetMapping("/all")
-    public List<EnderecoDto> getLista(){
+    public List<EnderecoDto> findAll(){
         return enderecoFacade.findAll();
     }
 
